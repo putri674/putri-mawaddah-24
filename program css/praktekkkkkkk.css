@@ -1,0 +1,46 @@
+body {
+  font-family: Arial,sans-serif;
+  background-color:f2f2f2; 
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  margin: 5px;
+}
+
+.pute{
+  background-color:wheat;
+  padding:40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8pxrgba(0,0,0,0,1);
+  width:300px;
+}
+
+h2{
+  text-align: center;
+}
+input[type="text"]
+input[type="password"] {
+width: 100px;
+height: 100px;
+padding: 10px;
+margin:  0;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+button {
+ width: 100%;
+ padding: 5px;
+ background-color: aqua;
+ color: aliceblue;
+ border: #ccc;
+ cursor: pointer;
+ font-size: 16px;
+}
+
+label {
+  display: flex;
+  margin-left: 45px;
+}

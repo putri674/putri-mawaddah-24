@@ -1,0 +1,49 @@
+.halaman{
+font-family: Arial,sans-serif;
+background-color:rgb(196, 255, 224);
+padding: 60px;
+justify-content:brown;
+align-i tems:brown;
+height:aliceblue;
+margin:100px auto;
+border-width: 0px, 0px, 0px, 0px;
+border-radius: 20px;
+height: auto;
+width: 300px;
+  }
+  
+   .username{ 
+    background-color: aqua;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 10px;
+    width: 3px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+
+   }
+   .password{ 
+    background-color: aqua;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 10px;
+    width: 3px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+   }
+   button{
+    background-color: aqua;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 10px;
+    width: 3px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+   }
+   

@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>halaman login</title>
+  <link rel="stylesheet" href="putri.css">
+</head>
+<body>
+  <div class="login-wrapper">       
+    <div class="login-container">
+      <div class="login-header">
+        <h2><b>Halaman Login</b></h2>
+        <p><b> isilah di bawah ini</b></p>
+
+      </div>
+      <form id="loginForm" class="login-form" onsubmit="return validateLogin()">
+        <div class="input-group">
+          <input type="text" id="username" placeholder="Username" required>
+        </div>
+        <div class="input-group">
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Pop-up Notification -->
+  <div id="popup" class="popup">
+    <p id="popupMessage"></p>
+    <button onclick="closePopup()">yes</button>
+    <button onclick="closePopup()">nda mauja</button>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

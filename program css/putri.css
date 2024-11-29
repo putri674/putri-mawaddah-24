@@ -1,0 +1,80 @@
+     /* Pop-up styles */
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(59, 21, 225);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 40px rgba(50, 165, 108, 0.708);
+    text-align: center;
+  }
+  
+  .popup button {
+    padding: 10px 20px;
+    background-color: #c5db34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #2980b9;
+  }
+
+.putri {
+    background-color: #faf8f848;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #cccccc98;
+    transition: .9s;
+}
+
+button {
+    background-color: #4c98af;
+    color: rgba(255, 255, 255, 0.756);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .9s;
+}
+
+button:hover {
+    text-shadow: 0px 0px 5px #a2b8be;
+    box-shadow: 5px 5px 25px #d5dcde;
+    transform: scale(0.9);
+}
+
+.login-container {
+    backdrop-filter: blur(px);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px rgba(138, 158, 171, 0.626);
+}
+
+input:hover {
+    background-color: #eeefefb6;
+    text-shadow: 0px 0px 5px white;
+    box-shadow: 0px 0px 25px white;
+}
